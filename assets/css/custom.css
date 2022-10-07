@@ -1,0 +1,36 @@
+/*OVERRIDE VARIABLES*/
+body {
+  --bs-body-bg: #fff;
+}
+.navbar {
+  --bs-navbar-active-color: #eb4d4b;
+}
+.navbar-nav {
+  --bs-nav-link-color: #000;
+  --bs-nav-link-hover-color: #130f40;
+  --bs-nav-link-disabled-color: #535c68;
+}
+
+.container {
+  max-width: 1920px;
+  background-color: var(--bs-white);
+}
+
+.container .bg-light {
+  background-color: var(--bs-white) !important;
+}
+
+.menu-fixed {
+  margin-top: 8px;
+}
+
+small, .small {
+  font-size: 1em;
+}
+
+.anchor-link,
+.anchor-link:hover,
+.anchor-link:visited {
+  color: var(--bs-white);
+  text-decoration: none;
+}

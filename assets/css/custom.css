@@ -11,6 +11,14 @@ body {
   --bs-nav-link-disabled-color: #535c68;
 }
 
+.navbar-brand {
+  color: var(--bs-black);
+}
+
+.bg-light {
+  background-color: var(--bs-white) !important;
+}
+
 .container {
   max-width: 1920px;
   background-color: var(--bs-white);
